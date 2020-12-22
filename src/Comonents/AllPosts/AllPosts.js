@@ -21,11 +21,9 @@ class AllPosts extends Component {
                     posts.map(value => <Post item = {value} key = {value.id} />)
                 }
                 <div className={'result'}>
-                    <Switch>
                         <Route path={`/posts/`} render={() => {
                             return 'asdasdas'
                         }}/>
-                    </Switch>
                 </div>
             </div>
         );
